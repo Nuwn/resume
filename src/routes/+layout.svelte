@@ -64,7 +64,6 @@
 		&:active {
 			color: yellow;
 			background-color: transparent;
-			text-decoration: underline;
 		}
 	}
 
