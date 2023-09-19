@@ -69,7 +69,6 @@
 
 		.progress-circle {
             display: flex;
-            position: relative;
             flex-direction: column;
             padding: 3%;
             flex: 1; /* Equivalent to flex-grow: 1 */

@@ -7,17 +7,20 @@
     .job-title, 
     .course-title {
         padding: 0 0 6px 0;
-        position: relative;
-        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        
+        p {
+            padding-left: 14px;
+            font-size: 1.2rem;
+        }
 
         &::before {
             content: "\f1db"; /* Unicode character for the FontAwesome icon you want */
             font-family: 'FontAwesome'; /* Specify the FontAwesome font family */
-            position: absolute;
             font-size: 0.8rem;
             font-weight: 100;
-            left:-26px;
-            top:5px;
+            margin-left: -26px;
             background-color: $secondary-bg-color;
         }
     }

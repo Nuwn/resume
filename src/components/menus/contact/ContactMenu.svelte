@@ -137,7 +137,6 @@
 			position: absolute;
 			left: 100%;
 			top: 0;
-			z-index: 1;
 
 			&::before {
 				display: block;
@@ -147,7 +146,6 @@
 				height: 100vh;
 				width: 100%;
 				content: "";
-				z-index: -1;
 			}
 		}
 	}

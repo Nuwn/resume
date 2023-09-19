@@ -14,9 +14,9 @@
 
 {#each jobs as job, index}
     <div class="job">
-        <div class="job-date">{job.date}</div>    
-        <div class="job-company">{job.company}</div>
-        <div class="job-title">{job.title}</div>
+        <p class="job-date">{job.date}</p>    
+        <p class="job-company">{job.company}</p>
+        <div class="job-title"><p>{job.title}</p></div>
         
         {#if job.summary}
             <p>{job.summary}</p>

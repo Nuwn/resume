@@ -15,7 +15,7 @@
 	<div class="course">
 		<div class="course-date">{course.date}</div>
 		<div class="course-school">{course.school}</div>
-		<div class="course-title">{course.title}</div>
+        <div class="course-title"><p>{course.title}</p></div>
 
 		{#if course.summary}
 			<p>{course.summary}</p>
