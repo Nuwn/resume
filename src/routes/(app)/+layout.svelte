@@ -13,7 +13,7 @@
     </div>
     <div class="profile-picture">
         <div class="profile-picture-float">
-            <img src="place.png" alt="" />
+            <img src="patric.jpg" alt="" />
         </div>
     </div>
     <section class="content">
