@@ -23,6 +23,12 @@
             "href": "https://lazy.solutions",
             "value": "https://lazy.solutions",
             "icon": "hashtag"
+        },
+        {
+            "text": "Resume Source Code",
+            "href": "https://github.com/Nuwn/resume",
+            "value": "https://github.com/Nuwn/resume",
+            "icon": "code"
         }
     ]
 }
