@@ -67,7 +67,7 @@
 		}
 
 		.content {
-			padding: 40px 10px 40px 80px;
+			padding: 40px 10px 40px 90px;
 			overflow-y: auto;
 
             @media screen and (min-width: 768px) {
