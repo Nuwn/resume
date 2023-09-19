@@ -1,0 +1,139 @@
+{
+    "locale": "se",
+    "title": "Kompetenser",
+    "Skills": {
+        "TechnicalSkills": {
+            "Frontend": [
+                {
+                    "title": "HTML/CSS",
+                    "level": 95
+                },
+                {
+                    "title": "JavaScript",
+                    "level": 85
+                },
+                {
+                    "title": "TypeScript",
+                    "level": 60
+                },
+                {
+                    "title": "Frontend-ramverk",
+                    "description": "Kompetens i det populära frontend-ramverket Svelte och expertis inom SCSS. Söker även att skaffa färdigheter inom andra frontend-teknologier som React.js, Vue.js eller Angular.",
+                    "level": 60
+                }
+            ],
+            "Backend": [
+                {
+                    "title": "PHP",
+                    "description": "Kunnig i PHP för serverbaserad webbutveckling, med expertis inom att skapa dynamiska och skalbara webbapplikationer.",
+                    "level": 70
+                },
+                {
+                    "title": "Node.js",
+                    "description": "Mycket kunnig i Node.js för serverbaserad JavaScript-utveckling, med erfarenhet av att bygga spelserverar för Unity-spel.",
+                    "level": 85
+                },
+                {
+                    "title": "Databaser",
+                    "description": "Kompetent inom databasdesign och hantering med fokus på SQL (inklusive MySQL och Microsoft SQL Server) och NoSQL-databaser (som MongoDB).",
+                    "level": 50
+                },
+                {
+                    "title": "Molntjänster",
+                    "description": "Familiaritet med molntjänster som AWS och Azure.",
+                    "level": 40
+                }
+            ],
+            "Unity": [
+                {
+                    "title": "C#",
+                    "description": "Kunnig i C#-programmering för Unity-spelutveckling, med expertis inom att skapa interaktiv spelupplevelse och optimera spelprestanda.",
+                    "level": 90
+                },
+                {
+                    "title": "Spelutveckling",
+                    "description": "Skicklig i att utveckla 2D- och 3D-spel i Unity, inklusive spelmekanik, användargränssnitt och optimering av spel.",
+                    "level": 95
+                },
+                {
+                    "title": "UI-design",
+                    "description": "Kunnig i att designa användargränssnitt (UI) för Unity-spel, vilket säkerställer en sömlös och engagerande spelarupplevelse.",
+                    "level": 80
+                },
+                {
+                    "title": "Unity Asset-utveckling",
+                    "description": "Erfarenhet av att skapa och optimera anpassade Unity-resurser för att förbättra spelutvecklingsflöden och förbättra spelprestanda.",
+                    "level": 70
+                },
+                {
+                    "title": "Multiplayer",
+                    "description": "Kunskap om att implementera multiplayer-funktionalitet i Unity-spel, vilket möjliggör onlinespel och flerspelarupplevelser.",
+                    "level": 60
+                }
+            ],
+            "Övriga": [
+                {
+                    "title": "Versionshantering",
+                    "description": "Kunnighet i versionshanteringssystem som Git och erfarenhet av samarbete inom programvaruutveckling.",
+                    "level": 70
+                },
+                {
+                    "title": "Molntjänster",
+                    "description": "Kännedom om molntjänster som AWS och Azure.",
+                    "level": 30
+                },
+                {
+                    "title": "API",
+                    "description": "Kunskap om design och utveckling av RESTful API:er för webb- och mobila applikationer.",
+                    "level": 40
+                },
+                {
+                    "title": "CMS",
+                    "description": "Erfarenhet av att arbeta med innehållshanteringssystem som WordPress för hantering av webbinnehåll.",
+                    "level": 50
+                },
+                {
+                    "title": "Docker",
+                    "description": "Erfarenhet av containerisering med Docker för effektiv distribution och hantering av applikationer.",
+                    "level": 55
+                },
+                {
+                    "title": "Postman",
+                    "description": "Kunnighet i användning av Postman för API-testning och utveckling, inklusive automatiserad testning och dokumentation.",
+                    "level": 60
+                },
+                {
+                    "title": "ChatGPT",
+                    "description": "Kunnighet i promptprogrammering och förmåga att söka kunskap med avancerade språkmodeller som ChatGPT.",
+                    "level": 80
+                }
+            ]
+        },
+        "Certifications": {
+            "title": "Certifikat",
+            "data": [
+                {
+                    "title": "ITIL",
+                    "description": "IT Infrastructure Library (ITIL) Foundation-certifiering."
+                },
+                {
+                    "title": "Azure Fundamentals",
+                    "description": "Certifiering i Microsoft Azure Fundamentals."
+                }
+            ]
+        },
+        "Languages": {
+            "title": "Språk",
+            "data": [
+                {
+                    "title": "Svenska",
+                    "description": "Modersmål"
+                },
+                {
+                    "title": "Engelska",
+                    "description": "Flytande"
+                }
+            ]
+        }
+    }
+}

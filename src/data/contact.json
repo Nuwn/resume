@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "text": "nuwn@hotmail.com (public)",
+            "href": "mailto:nuwn@hotmail.com",
+            "value": "nuwn@hotmail.com",
+            "icon": "envelope"
+        },
+        {
+            "text": "Patric Keisala",
+            "href": "https://www.linkedin.com/in/patric-keisala/",
+            "value": "https://www.linkedin.com/in/patric-keisala/",
+            "icon": "linkedin"
+        },
+        {
+            "text": "GitHub | Nuwn",
+            "href": "https://github.com/nuwn",
+            "value": "https://github.com/nuwn",
+            "icon": "github"
+        },
+        {
+            "text": "Lazy solutions",
+            "href": "https://lazy.solutions",
+            "value": "https://lazy.solutions",
+            "icon": "hashtag"
+        }
+    ]
+}

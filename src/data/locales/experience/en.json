@@ -1,0 +1,71 @@
+{
+    "locale": "en",
+    "title": "Experience",
+    "jobTitle": "Work",
+    "jobs": [
+        {
+            "title": "Publisher", 
+            "date": "2021-02 - 2022-08", 
+            "company": "Lazy solutions, self employed", 
+            "summary": "Co-created and published assets and tools that support 100+ active Unity developers and projects.", 
+            "tags": ["developer"]
+        },
+        {
+            "title": "Webdeveloper", 
+            "date": "2017-06 - 2017-09", 
+            "company": "Spectrum Digital Solutions AB", 
+            "summary": "Wordpress development", 
+            "description": [
+                "I worked with WordPress Multisite, where I managed updates and improvements for a network of over 20 websites.",
+                "Additionally, I successfully completed an 'examensarbete' (thesis project) for the company, which involved developing a custom plugin for .NET C# websites."
+            ],
+            "tags": ["developer"]
+        },
+        {
+            "title": "IT Consult", 
+            "date": "2013 - 2014", 
+            "company": "Lexicon It Konsult", 
+            "summary": "Project for upgrading computers to Windows 7 in Region Skåne's psychiatric departments. Responsible for liaising with the IT manager, technicians, and suppliers for deployment.", 
+            "tags": ["it"]
+        },
+        {
+            "title": "Customer Service", 
+            "date": "2013-01 - 2013-07", 
+            "company": "Mediamarkt", 
+            "summary": "Cashier and customer service.", 
+            "tags": ["Other"]
+        },
+        {
+            "title": "Service", 
+            "date": "2010 - 2012", 
+            "company": "Voksab AB", 
+            "summary": "Mechanical Maintenance. Gas meter replacement for E.ON gas customers. Work in district heating chambers. Inspection at Sysav Energy and Chemistry.", 
+            "tags": ["Other"]
+        },
+        {
+            "title": "Personal Identification Number Setter, On-Demand.", 
+            "date": "2007 - 2010", 
+            "company": "Fyrklövern AB", 
+            "summary": "Responsible for the files regarding checking/setting of personal identification numbers for customers to enable purchases.", 
+            "tags": ["Other"]
+        }
+    ],
+    "internshipTitle": "Internship",
+    "internships": [
+        {
+            "title": "Web development", 
+            "date": "2017 (2 months)", 
+            "company": "Spectrum Digital Solutions AB", 
+            "summary": "Worked on making updates to various websites created in WordPress Multisite.", 
+            "tags": ["developer"]
+        },
+        {
+            "title": "Front-end development", 
+            "date": "2016 (2 months)", 
+            "company": "Reges Development & Operations AB",  
+            "summary": "Developed a small app tailored for the company Transdev in Angular.", 
+            "tags": ["developer"]
+        }
+    ]
+}
+

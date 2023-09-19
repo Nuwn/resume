@@ -1,0 +1,83 @@
+{
+    "locale": "se",
+    "title": "Utbildning",
+    "courses": [
+        {
+            "title": "Systemutvecklare .NET",
+            "date": "2022-10-24 - 2023-03-17",
+            "school": "Lexicon Malmö",
+            "summary": "Kortare .NET systemutvecklarkurs. med Azure Fundamentals certifiering.",
+            "description": [
+                "NET fullstack. C#, C# databasmetodik i Visual Studio, ",
+                "Entity Framework, LINQ, HTML, CSS, JavaScript, JQUERY, React, ASP.NET Webb, MVC, Azure och SQL i Microsoft SQL server",
+                "Azure Cloud koncept, Tjänster, Säkerhet, Nätverk, Support, Virtualisering, Compliance och Government"
+            ],
+            "tags": [
+                "web development"
+            ]
+        },
+        {
+            "title": "Indie Game Studio",
+            "date": "2018 - 2021",
+            "school": "Ädelfors Folkhögskola",
+            "description": [
+                "- Företagsekonomi, Redovisning.",
+                "- Marknadsföring, affärsplaner.",
+                "- Grupprojekt och spelutveckling."
+            ],
+            "tags": [
+                "game development"
+            ]
+        },
+        {
+            "title": "Front-end Webb Utvecklare",
+            "date": "2015 - 2017",
+            "school": "KYH Yrkeshögskola",
+            "summary": "Front-End Web Development with Valuable Internship Experience.",
+            "description": [
+                "Under mina studier förvärvade jag färdigheter inom ett brett spektrum, inklusive:",
+                "- Front-End-utveckling: HTML, JavaScript, CSS och SCSS.",
+                "- Back-End-utveckling: Node.js, PHP, C#, MySQL och MongoDB.",
+                "- Verktyg för webbutveckling: WordPress, Umbraco, Angular 5 och JQuery.",
+                "- Utveckling av mobila appar: Använde Ionic-ramverket för apputveckling.",
+                "- Versionskontroll och projektledning: Behärskar Git, Bitbucket och Trello, och har erfarenhet av UX-design och Jasmine-test."
+            ],
+            "tags": [
+                "web development"
+            ]
+        },
+        {
+            "title": "Nätverkstekniker",
+            "date": "2012",
+            "school": "Lexicon Malmö",
+            "description": [
+                "De kurser jag avslutade inkluderade:",
+                "Praktisk Nätverkskurs",
+                "MS6292 Installing and Configuring Windows 7 Client",
+                "MS6293 Troubleshooting and Supporting Windows 7 in the Enterprise",
+                "MS6425 Configuring and Troubleshooting a Windows Server 2008 Active Directory",
+                "Domain Services",
+                "MS10135 Configuring, Managing and Troubleshooting Microsoft Exchange Server 2010"
+            ],
+            "tags": [
+                "it"
+            ]
+        },
+        {
+            "title": "Kock",
+            "date": "2010 - 2011",
+            "school": "Hotel og restaurantskolen, København",
+            "tags": [
+                "other"
+            ]
+        },
+        {
+            "title": "Data/Elektronik",
+            "date": "2010 - 2011",
+            "school": "Cybergymnasiet",
+            "tags": [
+                "it"
+            ]
+        }
+    ]
+}

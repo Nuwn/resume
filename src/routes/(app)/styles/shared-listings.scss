@@ -1,0 +1,50 @@
+.job, 
+.course{
+    border-left: 1px solid #ccc;
+    padding: 0 0 15px 20px;
+    margin-left: 6px; /* Adjust the spacing as needed */
+
+    .job-title, 
+    .course-title {
+        padding: 0 0 6px 0;
+        position: relative;
+        font-size: 1.2rem;
+
+        &::before {
+            content: "\f1db"; /* Unicode character for the FontAwesome icon you want */
+            font-family: 'FontAwesome'; /* Specify the FontAwesome font family */
+            position: absolute;
+            font-size: 0.8rem;
+            font-weight: 100;
+            left:-26px;
+            top:5px;
+            background-color: $secondary-bg-color;
+        }
+    }
+
+    .job-date,
+    .course-date {
+        font-weight: 500;
+        font-size: 0.80rem;
+        padding: 0 0 4px 0;
+        color: $secondary-color;
+    }
+
+    .job-company, 
+    .course-school {
+        font-weight: 100;
+        font-size: 0.9rem;
+        padding: 0 0 3px 0;
+    }
+
+    p {
+        font-weight: 100;
+        font-size: 1.06rem; 
+    }
+
+    button {
+        background-color:transparent;
+        border: 0;
+        color: lighten($bland-blue, 20%);
+    }
+}
