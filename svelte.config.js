@@ -25,7 +25,7 @@ const config = {
             '@types': 'src/types/types.ts',
         },
         paths: {
-            base: "/r", // Replace with your GitHub repository name
+            base: "/resume", // Replace with your GitHub repository name
         }
     }
 };

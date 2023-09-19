@@ -1,0 +1,1 @@
+import{w as o}from"./index.9f686f9b.js";const t={name:"desktop",maxWidth:9999},n=[{name:"mobile",maxWidth:768},{name:"desktop",maxWidth:1200}],d=o(t);function s(){for(const e of n)if(window.innerWidth<=e.maxWidth){d.set(e);break}}export{d as s,s as u};
