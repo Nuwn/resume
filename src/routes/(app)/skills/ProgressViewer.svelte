@@ -48,7 +48,7 @@
             on:blur={() => {}}
             role="button" tabindex=0>
                 <ProgressCircle {progress} />
-                <div class="progress-key">{key}</div>
+                <p class="progress-key">{key}</p>
                 {#if categoryIndex === index}
                     <i class="fa fa-chevron-down"></i>
                 {/if}
@@ -58,24 +58,31 @@
 
 <style lang="scss">
     .progress-container {
-		display: flex;
+		display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         cursor: pointer;
+
+        @media screen and (min-width:500px){
+            display: flex;
+        }
 
 		.progress-circle {
             display: flex;
             position: relative;
             flex-direction: column;
-			flex: 1; /* Equivalent to flex-grow: 1 */
-			flex-basis: 25%;
             padding: 3%;
-            justify-content: center;
+            flex: 1; /* Equivalent to flex-grow: 1 */
+            justify-content: start;
             align-items: center;
             border: solid 2px transparent;
             border-radius:10px;
+            
 
             .progress-key{
                 padding-top: 10px;
                 text-align: center;
+                word-break: break-word;
             }
 
             i {

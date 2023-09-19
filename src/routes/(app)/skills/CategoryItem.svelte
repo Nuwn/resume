@@ -48,13 +48,18 @@
         
         .top{
             display: grid;
-            grid-template-columns: auto 1fr;
+            grid-template-columns: 1fr 1fr;
             width: 100%;
             padding: 5px 0;
+
+            @media screen and (min-width: 768px) {
+                grid-template-columns: auto 1fr;
+            }
 
             .skill {
                 padding-left: 10px;
                 min-width: 200px;
+ 
             }
 
             .progress {
@@ -69,6 +74,7 @@
                     width: 100%;
                     padding-right: 20px;
                     text-align: right;
+                    word-wrap: break-word;
                 }
             }
         }
