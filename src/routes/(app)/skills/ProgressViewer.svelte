@@ -63,7 +63,7 @@
         grid-template-rows: 1fr 1fr;
         cursor: pointer;
 
-        @media screen and (min-width:500px){
+        @media screen and (min-width:520px){
             display: flex;
         }
 
@@ -85,10 +85,8 @@
             }
 
             i {
-                position: absolute;
-                bottom: 0;
-                transform: scaleX(1.5);
                 font-size: 0.7rem;
+                padding-top: 5px;
             }
 		}
 	}

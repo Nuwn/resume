@@ -23,7 +23,6 @@
         <p class="skill">{skill.title}</p>
         <div class="progress">
             <progress value="{skill.level}" max="100" />
-            <p>{skill.level}%</p>
         </div>
     </div>
     <div class="bottom">
@@ -66,16 +65,6 @@
                 display:grid;
                 place-items: center;
                 padding-right: 10px;
-                position: relative;
-
-                p{
-                    position: absolute;
-                    font-size: 0.75em;
-                    width: 100%;
-                    padding-right: 20px;
-                    text-align: right;
-                    word-wrap: break-word;
-                }
             }
         }
         .bottom {
@@ -84,7 +73,6 @@
             align-items: center;
 
             i {
-                transform: scaleX(1.5);
                 font-size: 0.6rem;
                 color: $bland-blue;
             }
