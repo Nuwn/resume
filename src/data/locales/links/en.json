@@ -1,0 +1,9 @@
+{
+    "locale": "en",
+    "links": [
+        {"text": "About me", "href": "/", "icon": "user"},
+        {"text": "Experience", "href": "/experience", "icon": "suitcase"},
+        {"text": "Education", "href": "/education", "icon": "graduation-cap"},
+        {"text": "Skills", "href": "/skills", "icon": "bar-chart"}
+    ]
+}

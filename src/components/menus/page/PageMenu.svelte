@@ -1,27 +1,42 @@
 <script lang="typescript">
 	import { page } from "$app/stores";
-    import type { ILink } from "../../../types/Interfaces";
+    import { locale } from '@stores/locale';
+    import type { ILinks } from "../../../types/Interfaces";
     import { base } from '$app/paths';
+	import { loadTranslations } from "$lib";
 
-    const links: ILink[] = [
-        {text: '', href: base+'/', value: '', icon: 'user'},
-        {text: '', href: base+'/experience', value: '', icon: 'suitcase'},
-        {text: '', href: base+'/education', value: '', icon: 'graduation-cap'},
-        {text: '', href: base+'/skills', value: '', icon: 'bar-chart'},
-    ];
+    let links: ILinks;
+    let isLoading = true;
+
+    // Load translations for this component when it's rendered
+    $: {
+        const currentLocale = $locale; // Get the current locale from the store
+        const path = 'links'; // Adjust this based on your component/page
+
+        if(currentLocale && currentLocale !== links?.locale){
+            isLoading = true;
+            loadTranslations(currentLocale, path).then((loadedTranslations) => {
+                links = loadedTranslations;
+                isLoading = false;
+            });
+        }
+    }
+
 </script>
 
+{#if links}
 <nav class="page-menu">
 	<ul>
-        {#each links as link }
+        {#each links.links as link }
             <li>
-                <a href="{link.href}" aria-current={$page.url.pathname === "{link.href}"} tabindex="0">
+                <a title={link.text} href="{base+link.href}" aria-current={$page.url.pathname === "{link.href}"} tabindex="0">
                     <i class="fa fa-solid fa-{link.icon}" />
                 </a>
             </li>
         {/each}
 	</ul>
 </nav>
+{/if}
 
 <style lang="scss">
 	.page-menu {

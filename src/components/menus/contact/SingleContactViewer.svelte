@@ -29,7 +29,7 @@
 </script>
 
 <div class="contact-info">
-	<a href={link.href}>{link.text}</a>
+	<a title={link.href} href={link.href}>{link.text}</a>
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<i class="fa fa-solid fa-clone {isCopied === State.Copied ? 'green' : isCopied === State.NotCopied ? 'red' : ''}" on:click={() => addToClipboard(link.value)} />

@@ -1,0 +1,9 @@
+{
+    "locale": "se",
+    "links": [
+        {"text": "Om mig", "href": "/", "icon": "user"},
+        {"text": "Erfarenhet", "href": "/experience", "icon": "suitcase"},
+        {"text": "Utbildning", "href": "/education", "icon": "graduation-cap"},
+        {"text": "Kompetenser", "href": "/skills", "icon": "bar-chart"}
+    ]
+}

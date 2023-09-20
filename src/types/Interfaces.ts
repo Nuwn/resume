@@ -1,3 +1,8 @@
+export interface ILinks{
+    locale: string;
+    links: ILink[];
+}
+
 export interface ILink {
     text: string;
     href: string;
