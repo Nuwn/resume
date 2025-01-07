@@ -1,0 +1,1 @@
+const e="en",t=[{text:"About me",href:"/",icon:"user"},{text:"Experience",href:"/experience",icon:"suitcase"},{text:"Education",href:"/education",icon:"graduation-cap"},{text:"Skills",href:"/skills",icon:"bar-chart"}],c={locale:e,links:t};export{c as default,t as links,e as locale};

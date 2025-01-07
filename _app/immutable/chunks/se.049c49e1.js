@@ -1,0 +1,1 @@
+const e="se",t=[{text:"Om mig",href:"/",icon:"user"},{text:"Erfarenhet",href:"/experience",icon:"suitcase"},{text:"Utbildning",href:"/education",icon:"graduation-cap"},{text:"Kompetenser",href:"/skills",icon:"bar-chart"}],n={locale:e,links:t};export{n as default,t as links,e as locale};
