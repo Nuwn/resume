@@ -13,7 +13,7 @@
     </div>
     <div class="profile-picture">
         <div class="profile-picture-float">
-            <img src="patric.jpg" alt="" />
+            <img src="patric.webm" alt="" />
         </div>
     </div>
     <section class="content">
@@ -57,6 +57,7 @@
 				position: absolute;
 				height: 104%;
 				top: -2%;
+				width: 100%;
 
 				img {
 					width: 100%;
