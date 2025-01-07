@@ -25,13 +25,8 @@
     {#if !isLoading}
 	<h1>{translations.title}</h1>
     <div class="space-20-0"></div>
-    <h2>{translations.jobTitle}</h2>
     <div class="divider"></div>
     <Joblisting jobs={translations.jobs} />
-    <div class="space-20-0"></div>
-    <h2>{translations.internshipTitle}</h2>
-    <div class="divider"></div>
-    <Joblisting jobs={translations.internships} />
     {/if}
 </div>
 

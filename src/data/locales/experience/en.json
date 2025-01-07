@@ -4,17 +4,27 @@
     "jobTitle": "Work",
     "jobs": [
         {
-            "title": "Publisher", 
+            "title": "Publisher & Developer", 
             "date": "2021-02 - 2022-08", 
-            "company": "Lazy solutions, self employed", 
+            "company": "Lazy solutions", 
             "summary": "Co-created and published assets and tools that support 1000+ active Unity developers and projects.", 
+            "description" : [
+                "- Project management, prioritization, and roadmap.",
+                "- Making sure the UX is on point, our goal is simplicity and beginner-friendly.",
+                "- Testing the new feature and doing my best to find as many bugs as possible.",
+                "- Deep knowledge of C#, Optimization and profiling.",
+                "- Customer support and managing the community of developers.",
+                "- Publishing as well as marketing and social media.",
+                "- Creating media such as marketing images, youtube, showcases, and example projects.",
+                "- Building and updating related websites and store pages."
+            ],
             "tags": ["developer"]
         },
         {
             "title": "Webdeveloper", 
             "date": "2017-06 - 2017-09", 
             "company": "Spectrum Digital Solutions AB", 
-            "summary": "Wordpress development", 
+            "summary": "Wordpress multisite development, where I managed updates and improvements for a network of over 20 websites.", 
             "description": [
                 "I worked with WordPress Multisite, where I managed updates and improvements for a network of over 20 websites.",
                 "Additionally, I successfully completed an 'examensarbete' (thesis project) for the company, which involved developing a custom plugin for .NET C# websites."
@@ -25,7 +35,7 @@
             "title": "IT Consult", 
             "date": "2013 - 2014", 
             "company": "Lexicon It Konsult", 
-            "summary": "Project for upgrading computers to Windows 7 in Region Skåne's psychiatric departments. Responsible for liaising with the IT manager, technicians, and suppliers for deployment.", 
+            "summary": "Project for upgrading computers to Windows 7 in Region Skåne's psychiatric departments. Worked together with IT managers, technicians, and suppliers.", 
             "tags": ["it"]
         },
         {
@@ -48,23 +58,6 @@
             "company": "Fyrklövern AB", 
             "summary": "Responsible for the files regarding checking/setting of personal identification numbers for customers to enable purchases.", 
             "tags": ["Other"]
-        }
-    ],
-    "internshipTitle": "Internship",
-    "internships": [
-        {
-            "title": "Web development", 
-            "date": "2017 (2 months)", 
-            "company": "Spectrum Digital Solutions AB", 
-            "summary": "Worked on making updates to various websites created in WordPress Multisite.", 
-            "tags": ["developer"]
-        },
-        {
-            "title": "Front-end development", 
-            "date": "2016 (2 months)", 
-            "company": "Reges Development & Operations AB",  
-            "summary": "Developed a small app tailored for the company Transdev in Angular.", 
-            "tags": ["developer"]
         }
     ]
 }

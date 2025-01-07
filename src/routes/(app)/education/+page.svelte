@@ -3,6 +3,7 @@
     import { locale } from '@stores/locale';
 	import type { IEducation } from "@interfaces";
 	import Courselisting from "./Courselisting.svelte";
+    import Joblisting from "../experience/Joblisting.svelte";
 
 	let translations: IEducation;
     let isLoading = true;
@@ -28,6 +29,10 @@
     <h1>{translations.title}</h1>
     <div class="divider"></div>
     <Courselisting courses={translations.courses} />
+    <div class="space-20-0"></div>
+    <h2>{translations.internshipTitle}</h2>
+    <div class="divider"></div>
+    <Joblisting jobs={translations.internships} />
     {/if}
 </div>
 

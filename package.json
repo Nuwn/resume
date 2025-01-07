@@ -4,13 +4,19 @@
 	"private": true,
 	"homepage": "https://nuwn.github.io/resume",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --force",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"deploy": "npm run build && gh-pages -d build"
-	},
+		"deploy": "npm run build && gh-pages -d build",
+        "export": "node ./export/export.js",
+        "export-dev": "node ./export/export.js",
+        "export-se-dev": "node ./export/export.js locale=se",
+        "export-tech": "node ./export/export.js locale=en profession=it",
+        "export-se-tech": "node ./export/export.js locale=se profession=it",
+        "cover": "node ./export/cover.js"
+    },
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.3",

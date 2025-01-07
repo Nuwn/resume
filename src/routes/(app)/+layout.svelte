@@ -2,29 +2,55 @@
 	import ContactMenu from "@components/menus/contact/ContactMenu.svelte";
 	import PageMenu from "@components/menus/page/PageMenu.svelte";
 	import LanguageMenu from "@components/menus/language/LanguageMenu.svelte";
+
+    const bg_image = 'bg.jpg';
+
 </script>
 
-<div class="main-container">
-    <div class="left-menu">
-        <div><ContactMenu /></div>
-        <div class="page-menu"><PageMenu /></div>
-        <div />
-        <LanguageMenu />
-    </div>
-    <div class="profile-picture">
-        <div class="profile-picture-float">
-            <img src="patric.webm" alt="" />
+<main style="background-image: url({bg_image});">
+    <div class="main-container">
+        <div class="left-menu">
+            <div><ContactMenu /></div>
+            <div class="page-menu"><PageMenu /></div>
+            <LanguageMenu />
+        </div>
+        <div class="profile-picture">
+            <div class="profile-picture-float">
+                <img src="patric.webp" alt="" />
+            </div>
+        </div>
+        <section class="content">
+            <slot />
+        </section>
+        <div class="right-menu">
+            <PageMenu />
         </div>
     </div>
-    <section class="content">
-        <slot />
-    </section>
-    <div class="right-menu">
-        <PageMenu />
-    </div>
-</div>
+</main>
 
 <style lang="scss">
+    :global(a) {
+		color: $secondary-color;
+		text-decoration: none;
+
+		&:active {
+			color: yellow;
+			background-color: transparent;
+		}
+	}
+
+	main {
+		width: 100%;
+		height: 100%;
+        background-color: $bg-color;
+		color: $primary-color;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+		display: grid;
+		place-items: center;
+	}
+
 	.main-container {
 		background-color: $secondary-bg-color;
 		height: 100%;

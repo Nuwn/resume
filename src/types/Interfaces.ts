@@ -25,14 +25,14 @@ export interface IJobs {
     title: string;
     jobTitle: string;
     jobs: IExperience[];
-    internshipTitle: string;
-    internships: IExperience[];
 }
 
 export interface IEducation {
     locale: string;
     title: string;
     courses: IExperience[];
+    internshipTitle: string;
+    internships: IExperience[];
 }
 
 

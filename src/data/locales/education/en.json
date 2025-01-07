@@ -12,7 +12,9 @@
                 "Entity Framework, LINQ, HTML, CSS, JavaScript, JQUERY, React, ASP.NET Web, MVC, Azure, and SQL in Microsoft SQL Server.",
                 "Azure Cloud concepts, Services, Security, Networking, Support, Virtualization, Compliance, and Government."
             ],
-            "tags": ["web development"]
+            "tags": [
+                "web development"
+            ]
         },
         {
             "title": "Indie Game Studio",
@@ -23,7 +25,9 @@
                 "- Marketing, Business Plans.",
                 "- Group Projects and Game Development"
             ],
-            "tags": ["game development"]
+            "tags": [
+                "game development"
+            ]
         },
         {
             "title": "Front-end Web Developer",
@@ -38,7 +42,9 @@
                 "- Mobile App Development: Utilizing Ionic framework for app development.",
                 "- Version Control and Project Management: Proficient in Git, Bitbucket, Trello, and experienced in UX design and Jasmine tests."
             ],
-            "tags": ["web development"]
+            "tags": [
+                "web development"
+            ]
         },
         {
             "title": "Network technician",
@@ -53,19 +59,46 @@
                 "Domain Services",
                 "MS10135 Configuring, Managing and Troubleshooting Microsoft Exchange Server 2010"
             ],
-            "tags": ["it"]
+            "tags": [
+                "it"
+            ]
         },
         {
             "title": "Chef",
             "date": "2010 - 2011",
             "school": "Hotel og restaurantskolen, København",
-            "tags": ["other"]
+            "tags": [
+                "other"
+            ]
         },
         {
             "title": "It/elektronics",
             "date": "2010 - 2011",
             "school": "Cybergymnasiet",
-            "tags": ["it"]
+            "tags": [
+                "it"
+            ]
+        }
+    ],
+    "internshipTitle": "Internship",
+    "internships": [
+        {
+            "title": "Web development",
+            "date": "2017 (2 months)",
+            "company": "Spectrum Digital Solutions AB",
+            "summary": "Worked on making updates to various websites created in WordPress Multisite.",
+            "tags": [
+                "developer"
+            ]
+        },
+        {
+            "title": "Front-end development",
+            "date": "2016 (2 months)",
+            "company": "Reges Development & Operations AB",
+            "summary": "Developed a small app tailored for the company Transdev in Angular.",
+            "tags": [
+                "developer"
+            ]
         }
     ]
 }

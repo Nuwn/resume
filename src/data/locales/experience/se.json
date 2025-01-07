@@ -8,13 +8,21 @@
             "date": "2021-02 - 2022-08",
             "company": "Lazy Solutions, egen företagare",
             "summary": "Samskapat och publicerat assets och verktyg som stödjer 1000+ aktiva Unity utvecklare och projekt.",
+            "description": [
+                "- Projektledning och utveckling i Unity miljö.",
+                "- Se till att UX är på topp, vårt mål är enkelhet och nybörjarvänlighet.",
+                "- Kundsupport och hantering av community.",
+                "- Publicering samt marknadsföring och sociala medier.",
+                "- Skapa media som marknadsföringsbilder, YouTube, showcase och exempelprojekt.",
+                "- Bygga och uppdatera relaterade webbplatser och butikssidor."
+            ],
             "tags": ["developer"]
         },
         {
             "title": "Webbutvecklare",
             "date": "2017-06 - 2017-09",
             "company": "Spectrum Digital Solutions AB",
-            "summary": "Wordpress-utveckling",
+            "summary": "Wordpress multisite utveckling, där jag uppdatera och förbättra webbplatser i ett större nätverk",
             "description": [
                 "Jag arbetade med WordPress Multisite, där jag hanterade uppdateringar och förbättringar för ett nätverk med över 20 webbplatser.",
                 "Dessutom slutförde jag ett examensarbete på företaget, som innefattade utveckling av en anpassad plugin för .NET C#-webbplatser."
@@ -25,7 +33,7 @@
             "title": "IT-konsult",
             "date": "2013 - 2014",
             "company": "Lexicon It Konsult",
-            "summary": "Arbetade med uppgradering av datorer till windows 7 i region skånes psykiatri avdelningar. Ansvarade för att ha kontakt med IT ansvarig, tekniker och leverantörer för utrullning.",
+            "summary": "Arbetade med uppgradering av datorer till windows 7 i region skånes psykiatri avdelningar. kontakt med IT ansvarig, tekniker och leverantörer för utrullning.",
             "tags": ["it"]
         },
         {
@@ -48,23 +56,6 @@
             "company": "Fyrklövern AB",
             "summary": "Ansvarig för filer avseende kontroll/inställning av personnummer för kunder för att möjliggöra köp.",
             "tags": ["other"]
-        }
-    ],
-    "internshipTitle": "Praktik",
-    "internships": [
-        {
-            "title": "Webbutveckling",
-            "date": "2017 (2 månader)",
-            "company": "Spectrum Digital Solutions AB",
-            "summary": "Arbetade med att göra uppdateringar på olika webbplatser skapade i WordPress Multisite.",
-            "tags": ["utvecklare"]
-        },
-        {
-            "title": "Front-end-utveckling",
-            "date": "2016 (2 månader)",
-            "company": "Reges Development & Operations AB",
-            "summary": "Utvecklade en liten app anpassad för företaget Transdev i Angular.",
-            "tags": ["utvecklare"]
         }
     ]
 }

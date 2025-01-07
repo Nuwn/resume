@@ -79,5 +79,22 @@
                 "it"
             ]
         }
+    ],
+    "internshipTitle": "Praktik",
+    "internships": [
+        {
+            "title": "Webbutveckling",
+            "date": "2017 (2 månader)",
+            "company": "Spectrum Digital Solutions AB",
+            "summary": "Arbetade med att göra uppdateringar på olika webbplatser skapade i WordPress Multisite.",
+            "tags": ["utvecklare"]
+        },
+        {
+            "title": "Front-end-utveckling",
+            "date": "2016 (2 månader)",
+            "company": "Reges Development & Operations AB",
+            "summary": "Utvecklade en liten app anpassad för företaget Transdev i Angular.",
+            "tags": ["utvecklare"]
+        }
     ]
 }
